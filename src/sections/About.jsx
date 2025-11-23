@@ -1,4 +1,5 @@
 import React from "react";
+import me from "../assets/me.jpg";
 
 export default function About() {
   return (
@@ -47,13 +48,14 @@ export default function About() {
         </ul>
       </div>
 
+      {/* RIGHT SIDE IMAGE */}
       <div className="mx-auto w-full max-w-[420px] h-[500px] rounded-3xl overflow-hidden border border-slate-200 shadow-2xl">
-  <img
-    src="src/assets/c7282721-ea0e-431e-9131-aed1094a0075.jpg"
-    alt="Hridayansh"
-    className="h-full w-full object-cover object-top"
-  />
-</div>
+        <img
+          src={me}
+          alt="Hridayansh"
+          className="h-full w-full object-cover object-top"
+        />
+      </div>
     </div>
   );
 }

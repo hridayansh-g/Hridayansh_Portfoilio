@@ -1,46 +1,49 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
+
+// ✅ LOCAL IMAGES IMPORT
+import shopgenieImg from "../assets/shopgenie.png";
+import falacieImg from "../assets/Falacie.png";
+import jarvisImg from "../assets/Jarvis.png";
+import docSummaryImg from "../assets/DocSummary.png";
 
 const projects = [
   {
     title: "ShopGenie – Smart In-Store Shopping Assistant",
     desc: "AI-powered retail app with live stock, in-store maps & QR self-checkout.",
     tags: ["React Native", "TypeScript", "Node.js", "Express", "MongoDB"],
-    image:
-      "src/assets/x.png",
+    image: shopgenieImg,
     demoUrl: "https://youtu.be/3JlimatB304?si=iRgwkHHKbrqRt-Q7",
   },
   {
     title: "Falacie-s – Emotion-Based Movie Recommender",
     desc: "Detects facial emotions (OpenCV/DeepFace) and recommends movies via TMDB.",
     tags: ["React", "Tailwind", "FastAPI", "Python", "TMDB"],
-    image:
-      "src/assets/c.png",
+    image: falacieImg,
     demoUrl: "https://youtu.be/oadANaaW_RM?si=QJZ1hSo1Qdz6GW7w",
   },
   {
     title: "Jarvis – AI-Powered Voice Assistant",
     desc: "Multilingual desktop voice assistant (English/Hindi/Hinglish).",
     tags: ["Python", "Cohere AI", "Eel", "gTTS"],
-    image:
-      "src/assets/preview1.png",
+    image: jarvisImg,
     demoUrl: "https://youtu.be/lvYUVkUco-k?si=XJOT1QQrOjqxsw1M",
   },
   {
     title: "Doc Summary Assistant – AI PDF & Image Summarizer",
     desc: "Upload PDFs or images → OCR + AI summary using FastAPI & Cohere/OpenAI backend.",
     tags: ["FastAPI", "Cohere/OpenAI", "OCR", "PyPDF", "Vanilla JS", "HTML/CSS"],
-    image:
-      "src/assets/b.png",
+    image: docSummaryImg,
     demoUrl: "https://github.com/hridayansh-g/doc-summary-assistant",
   },
 ];
 
 function HopText({ text }) {
-  const ref = React.useRef(null);
+  const ref = useRef(null);
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
@@ -52,6 +55,7 @@ function HopText({ text }) {
       },
       { threshold: 0.5 }
     );
+
     io.observe(el);
     return () => io.disconnect();
   }, []);
@@ -77,6 +81,7 @@ export default function Projects() {
         <HopText text="Let’s build awesome things" />
       </h2>
 
+      {/* simple responsive grid */}
       <div className="mt-6 grid gap-6 md:grid-cols-2">
         {projects.map((p) => (
           <a
