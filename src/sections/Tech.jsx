@@ -74,12 +74,12 @@ export default function Tech() {
         </p>
       </div>
 
-      {/* SINGLE GRID – sari skills yahi pe */}
+      {/* SINGLE GRID  */}
       <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
         {techData.map((item, idx) => (
           <div
             key={item.label}
-            style={{ transitionDelay: `${idx * 40}ms` }} // thoda stagger
+            style={{ transitionDelay: `${idx * 40}ms` }} 
             className="tech-card opacity-0 translate-y-5 transition-all duration-500"
           >
             <div className="bg-gradient-to-r from-purple-500/70 via-pink-500/60 to-amber-400/70 p-[1px] rounded-2xl shadow-md hover:shadow-xl hover:scale-[1.02] transition-all">
@@ -87,7 +87,7 @@ export default function Tech() {
                 {item.icon ? (
                   <i className={`text-2xl ${item.icon}`} />
                 ) : (
-                  // text-only skills ke liye generic emoji icon
+                  
                   <span className="text-xl">📚</span>
                 )}
                 <span className="text-center">{item.label}</span>

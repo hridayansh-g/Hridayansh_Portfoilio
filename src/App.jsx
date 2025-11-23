@@ -1,4 +1,3 @@
-// src/App.jsx
 import React, { useEffect, useRef, useState } from "react";
 import DockNav from "./components/DockNav";
 import Hero from "./sections/Hero";
@@ -12,9 +11,8 @@ const SECTION_IDS = ["home", "about", "tech", "projects", "education", "contact"
 
 export default function App() {
   const [active, setActive] = useState("home");
-  const sectionRefs = useRef({}); // <-- simple JS object, no type
+  const sectionRefs = useRef({}); 
 
-  // ---------- scroll spy (centre of screen kis section me hai) ----------
   useEffect(() => {
     const handleScroll = () => {
       const mid = window.scrollY + window.innerHeight / 2;
@@ -42,7 +40,7 @@ export default function App() {
     };
   }, []);
 
-  // ---------- dock click -> exact section ----------
+
   const scrollToSection = (id) => {
     const el = sectionRefs.current[id];
     if (el) {
@@ -62,9 +60,9 @@ export default function App() {
         <div className="absolute -bottom-40 right-0 h-80 w-80 rounded-full bg-pink-300/40 blur-3xl" />
       </div>
 
-      {/* NO space-y yaha, har section apni full screen lega */}
+      {/* Main */}
       <main className="relative mx-auto max-w-6xl px-4 pb-32">
-        {/* HERO: h-screen, centre aligned */}
+        {/* HERO*/}
         <section
           id="home"
           ref={(el) => (sectionRefs.current.home = el)}
@@ -73,7 +71,7 @@ export default function App() {
           <Hero />
         </section>
 
-        {/* ABOUT: mobile pe top se, bade screens pe centre */}
+        {/* ABOUT*/}
         <section
           id="about"
           ref={(el) => (sectionRefs.current.about = el)}
@@ -129,7 +127,7 @@ export default function App() {
         </section>
       </main>
 
-      {/* bottom dock – same hi rahega */}
+      {/* bottom dock */}
       <DockNav active={active} onNavClick={scrollToSection} />
     </div>
   );
