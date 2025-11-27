@@ -1,16 +1,40 @@
-# React + Vite
+# 🚀 Hridayansh Gupta – Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fast, and beautifully designed developer portfolio built using **React + Vite + Tailwind CSS**.  
+Showcasing my projects, skills, and journey as a Software Engineer.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://your-portfolio-link.vercel.app  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ⭐ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚡ **Lightning-fast** performance with Vite  
+- 🎨 **Modern UI/UX** with Tailwind CSS  
+- 📱 **Fully Responsive** design  
+- ✨ Smooth animations (Framer Motion)  
+- 🧩 Clean & modular code structure  
+- 🧠 Project + Skills + Experience sections  
+- 🔗 Direct social/contact integration  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+**Frontend:**  
+- React  
+- Vite  
+- Tailwind CSS  
+- Framer Motion  
+- React Icons  
+
+**Deployment:**  
+- Vercel / Netlify  
+
+---
+
+##📬 **Contact**
+
+  LinkedIn: https://linkedin.com/in/hridayansh-g
+	GitHub: https://github.com/hridayansh-g
+	Email: hridayansh3@gmail.com
