@@ -3,7 +3,7 @@
 A modern, fast, and beautifully designed developer portfolio built using **React + Vite + Tailwind CSS**.  
 Showcasing my projects, skills, and journey as a Software Engineer.
 
-🔗 **Live Demo:** https://your-portfolio-link.vercel.app  
+🔗 **Live Demo:** https://hridayansh-portfoilio.vercel.app/ 
 
 ---
 
