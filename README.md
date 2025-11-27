@@ -29,12 +29,12 @@ Showcasing my projects, skills, and journey as a Software Engineer.
 - React Icons  
 
 **Deployment:**  
-- Vercel / Netlify  
+- Vercel 
 
 ---
 
 ##📬 **Contact**
 
-  LinkedIn: https://linkedin.com/in/hridayansh-g
-	GitHub: https://github.com/hridayansh-g
-	Email: hridayansh3@gmail.com
+- LinkedIn: https://linkedin.com/in/hridayansh-g
+- GitHub: https://github.com/hridayansh-g
+- Email: hridayansh3@gmail.com
