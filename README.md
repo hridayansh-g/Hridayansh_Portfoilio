@@ -33,7 +33,7 @@ Showcasing my projects, skills, and journey as a Software Engineer.
 
 ---
 
-##📬 **Contact**
+## Contact
 
 - LinkedIn: https://linkedin.com/in/hridayansh-g
 - GitHub: https://github.com/hridayansh-g
