@@ -5,7 +5,7 @@ const edu = [
     period: "Dec 2022 – Present",
     title: "B.Tech (CSE – Artificial Intelligence)",
     place: "Pranveer Singh Institute of Technology, Kanpur",
-    detail: "CGPA 7.54 (till 6th sem)",
+    detail: "CGPA 7.59 (till 6th sem)",
     link: "https://drive.google.com/file/d/1O-sUUBuVIxeHrtmEld5j-XNeHhlIBiSe/view?usp=sharing", 
   },
   {
