@@ -24,7 +24,7 @@ export default function Hero() {
       <div className="mt-3 flex flex-wrap gap-3">
         {/* Resume Clickable */}
         <a
-          href="https://drive.google.com/file/d/1glRTa4W8fpVKESopilcjSgg4OL3pVx3p/view?usp=sharing"
+          href="https://drive.google.com/file/d/11wfYh-RCaB1tATqDZu991HnbHG7Tl_1F/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center rounded-[14px] bg-slate-900 px-5 py-2.5 text-sm font-bold text-white shadow-md hover:bg-slate-800 transition"
